@@ -1,0 +1,23 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #2f2f2f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+iframe.hidden {
+    display: none;
+    overflow: hidden;
+    border: none;
+    height: 0;
+    width: 0;
+}
